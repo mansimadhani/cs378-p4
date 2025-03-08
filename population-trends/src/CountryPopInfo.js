@@ -15,7 +15,7 @@ function CountryPopInfo ({countryID}) {
     const [pops, setPops] = useState(new Array (10).fill(0));
 
     useEffect(() => {
-        const BASE_URL = 'http://api.worldbank.org/v2/country/' + countryID + '/indicator/SP.POP.TOTL?date=2013:2023&format=json';
+        const BASE_URL = 'https://api.worldbank.org/v2/country/' + countryID + '/indicator/SP.POP.TOTL?date=2013:2023&format=json';
         fetch (BASE_URL)
         .then (data => data.json())
         .then (json =>{
