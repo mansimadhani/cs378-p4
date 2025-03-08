@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-heading > p {
+  font-weight: bold;
+  color: #577371 !important;
+  margin-top: 1rem;
+}
+
+.col {
+  padding: 0;
+  margin: 0;
+}
+
+.country-buttons {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.country-button {
+  margin: 0.5rem;
+  border-radius: 1rem;
+  background-color: #DFE6BB;
+  border: none;
+  padding: 0.15rem;
+}
+
+.country-button-active {
+  margin: 0.5rem;
+  border-radius: 1rem;
+  background-color: #ABBA7C;
+  border: none;
+  padding: 0.15rem;
+}
+
+.main-header {
+  text-align: center;
+  padding: 1rem;
+  color: #85A98F;
+  font-weight: bold;
+}
+
+.pop-desc {
+  color: #577371;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  margin-bottom: -1.5rem;
+}
+
+.pop-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #85A98F; 
+  margin-bottom: 2rem;
+}
+
+.form-div {
+  text-align: center;
+  padding: 1rem;
+}
+
+.add-country {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+  border: 0.1rem solid gray;
+  font-size: 1.5rem;
+  background-color: #F1DDD6;
+  color: gray;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+input {
+  border-radius: 1rem;
+  border: 0.1rem solid gray;
+  padding: 0.8rem;
+  text-align: center;
+  height: 2rem;
+  margin-right: -2rem;
+}
+
+.x-axis {
+  font-size: 0.7rem;
+}
+
+.y-axis {
+  font-size: 0.7rem;
+}
+
+.data-pop, .data-year {
+  color: #577371 !important;
+}
